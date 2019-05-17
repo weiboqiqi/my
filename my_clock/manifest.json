@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "我的时钟",  //扩展名称
+  "version": "1.0",   //版本
+  "description": "我的第一个Chrome扩展", //扩展名称
+  "icons": {  //定义了扩展相关图标文件的位置
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_action": {  //指定扩展的图标放在Chrome的工具栏中
+    "default_icon": {  //定义了相应图标文件的位置
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+    },
+    "default_title": "我的时钟",  //当用户鼠标悬停于扩展图标上所显示的文字
+    "default_popup": "popup.html" //当用户单击扩展图标时所显示页面的文件位置
+  }
+}
